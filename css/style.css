@@ -15,18 +15,26 @@
 
 #desert{
     position: absolute;
-    background-image: url("../images/fond2.png");
-    height: 200px;
+    background-image: url("../images/fond.jpg");
+    height: 500px;
     width: 100%;
-    animation: mouvementADroite 600s infinite linear; /** permet d'animer le fond pour allant à droite tout en suivant une ligne linéaire **/
+    animation: mouvementADroite 1000s infinite linear; /** permet d'animer le fond pour allant à droite tout en suivant une ligne linéaire **/
     bottom: 0;
 }
 
 .dino{
-    background-image: url("../images/2.png");
-    height: 60px;
-    width: 60px;
+    background-image: url("../images/dino.png");
+    height: 85px;
+    width: 80px;
     bottom: 0;
     position: absolute;
 
+}
+
+.obstacle{
+    background-image: url("../images/cac.png");
+    width: 100px;
+    height: 90px;
+    position: absolute;
+    bottom: 0;
 }
