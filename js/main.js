@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const grid = document.querySelector('.grid')
     let gravity = 0.9
 
-    function control(e) {
+    function control(e) {// function qui permet de sauter si j'appuie sur espace
         if (e.code=== "Space"){
             console.log('jump')
             jump()
