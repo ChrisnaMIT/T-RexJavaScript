@@ -1,9 +1,14 @@
-@keyframes slideright {
+
+
+
+
+/** keyframes permet de modifier progressivement sa propriété de background posiition  **/
+@keyframes mouvementADroite { /** Nom donner à l'animation**/
     from{
-        background-position: 70000%;
+        background-position: 70000%; /** il va partir de tout à droite **/
     }
     to {
-        background-position: 0%;
+        background-position: 0%; /**Pour finir tout à gauche **/
     }
 }
 
@@ -13,7 +18,7 @@
     background-image: url("../images/fond2.png");
     height: 200px;
     width: 100%;
-    animation: slideright 600s infinite linear;
+    animation: mouvementADroite 600s infinite linear; /** permet d'animer le fond pour allant à droite tout en suivant une ligne linéaire **/
     bottom: 0;
 }
 
